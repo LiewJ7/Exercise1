@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
             if(car_price==0){
 
             }
+            
             val down_payment=editTextDownPayment.text.toString().toInt()
             val loan_period=editTextLoanPeriod.text.toString().toInt()
             val interest_rate=editTextInterestRate.text.toString().toFloat()
